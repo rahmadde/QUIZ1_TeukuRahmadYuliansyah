@@ -38,7 +38,7 @@
                 </div>
                 <div class="mb-2 mt-2">
                     <label for="" class="form-label">Tanggal Lahir</label>
-                    <input type="text" name="tanggal" id="" class="form-control">
+                    <input type="date" name="tanggal" id="" class="form-control">
                 </div>
                 <div class="mb-2 mt-2">
                     <label for="" class="form-label">Email</label>

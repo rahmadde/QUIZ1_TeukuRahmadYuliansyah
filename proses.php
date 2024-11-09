@@ -30,27 +30,27 @@
                 <table class="table">
                     <tr>
                         <th scope="row">NIDN</th>
-                        <td>:</td>
+                        <td>: <?=$nidn?></td>
                     </tr>
                     <tr>
                         <th scope="row">Nama Lengkap</th>
-                        <td>:</td>
+                        <td>: <?=$nama?></td>
                     </tr>
                     <tr>
                         <th scope="row">Rumpun</th>
-                        <td>:</td>
+                        <td>: <?=$rumpun?></td>
                     </tr>
                     <tr>
                         <th scope="row">Tempat Lahir</th>
-                        <td>:</td>
+                        <td>: <?=$tempat?></td>
                     </tr>
                     <tr>
                         <th scope="row">Tanggal Lahir</th>
-                        <td>:</td>
+                        <td>: <?=$tanggal?></td>
                     </tr>
                     <tr>
                         <th scope="row">Email</th>  
-                        <td>:</td>
+                        <td>: <?=$email?></td>
                     </tr>
                 </table>
                 <a href="index.php" class="btn btn-warning">Kembali</a>
