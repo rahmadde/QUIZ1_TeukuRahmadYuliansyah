@@ -1,5 +1,12 @@
 <?php
     include("koneksi.php");
+
+    $nidn       = $_POST['nidn'];
+    $nama       = $_POST['nama'];
+    $rumpun     = $_POST['rumpun'];
+    $tempat     = $_POST['tempat'];
+    $tanggal    = $_POST['tanggal'];
+    $email      = $_POST['email'];
 ?>
 
 <!DOCTYPE html>
