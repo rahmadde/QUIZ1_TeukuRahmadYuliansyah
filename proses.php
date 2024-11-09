@@ -7,6 +7,8 @@
     $tempat     = $_POST['tempat'];
     $tanggal    = $_POST['tanggal'];
     $email      = $_POST['email'];
+
+    $simpan = "INSERT INTO dosen(nidn, nama_lengkap, rumpun, tempat_lahir, tanggal_lahir, email) VALUES ('$nidn','$nama','$rumpun','$tempat','$tanggal','$email')";
 ?>
 
 <!DOCTYPE html>
